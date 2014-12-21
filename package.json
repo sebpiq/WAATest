@@ -1,0 +1,35 @@
+{
+  "name": "waatest",
+  "version": "0.1.0",
+  "description": "Utilities for testing Web Audio API code",
+  "main": "index.js",
+  "scripts": {
+    "build": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sebpiq/WAAOffset.git"
+  },
+  "keywords": [
+    "audio",
+    "web audio",
+    "Web Audio API",
+    "waa"
+  ],
+  "author": "Sébastien Piquemal <sebpiq@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sebpiq/WAAOffset/issues"
+  },
+  "homepage": "https://github.com/sebpiq/WAAOffset",
+  "dependencies": {
+    "gulp": "3.8.x",
+    "vinyl-source-stream": "1.0.x",
+    "fs-extra": "0.13.x",
+    "browserify": "7.0.x",
+    "chai": "1.10.x",
+    "chai-stats": "git://github.com/kimmobrunfeldt/chai-stats.git#browserify-fix",
+    "underscore": "1.7.x",
+    "async": "0.9.x"
+  }
+}
